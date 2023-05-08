@@ -38,18 +38,20 @@ img {
 }
 .container {
     width: 1160px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;    
 }
 
 .container-header,
 .nav,
+.page-nav,
 .nav-list,
 .nav-list-contact {
     display: flex;
-    align-items: center;}
+    align-items: center;
+}
 .nav-list {
     column-gap: 40px;
 }
@@ -105,8 +107,7 @@ body {
 .page-nav {
     padding-top: 24px;
     padding-bottom: 24px;
-    background-color: aqua;
-}
+    }
 
 .nav-list-contact {
     margin-left: auto;
@@ -134,21 +135,30 @@ body {
 }
 .section-hero {
     background-color: var(--background-secondary);
+    padding-top: 188px;
+    padding-bottom: 188px;
     }
 .main-title {
     color: var(--main-title-text);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    margin: 0 auto 48px;
+    max-width: 496x;
 }
 .btn-order-service {
-    cursor: pointer;
-    width: 169.12px;
+    width: 169px;
     height: 56px;
-    left: 656.45px;
+    left: 636px;
     top: 428px;
     background: var(--background-btn);
     color: var(--main-title-text);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn-order-service:hover,
 .btn-order-service:focus {
