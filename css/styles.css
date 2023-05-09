@@ -86,7 +86,9 @@ body {
     line-height: 1.17;
     margin-right: 76px;
 }
-
+.page-footer {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .logo-title {
     color: var( --color-logo-web);
 }
@@ -98,6 +100,12 @@ body {
 .logo-title-footer {
     color: var(--color-logo-footer);
 }
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -145,47 +153,86 @@ body {
     line-height: 1.07;
     text-align: center;
     margin: 0 auto 48px;
-    max-width: 496x;
+    max-width: 496px;
 }
 .btn-order-service {
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: var(--background-btn);
-    color: var(--main-title-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
     display: flex;
     align-items: center;
     text-align: center;
+
+    background: var(--background-btn);
+    color: var(--main-title-text);
+
     margin-left: auto;
     margin-right: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 .btn-order-service:hover,
 .btn-order-service:focus {
     background-color: var(--background-accent);
 }
 
+.container-description {
+    display: flex;
+    column-gap: 24px;    
+}
+.section-description {
+    padding-bottom: 0;
+}
+.section-our-team {
+    background-color: var(--background-tertiary);
+}
+.section-our-team-list,
+.section-we-are-doing-list {
+    display: flex;
+    column-gap: 24px;
+}
 .title-section {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 72px;
 }
-.description-title
+
+.description-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
 .name-member-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--primary-text-color);
+    margin-bottom: 8px;
 }
-.description-text
+
+.description-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+
 .position-member-team {
     font-size: 16px;
     line-height: 1.5;
     color: var(--secondary-text-color);
 }
-.section-our-team {
-    background-color: var(--background-tertiary);
+.member-team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 .page-footer {
     background-color: var(--background-secondary);
@@ -194,6 +241,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--tertiary-text-color);
+    width: 264px;
 }
 
 .btn-filter {
@@ -210,6 +258,17 @@ body {
     background-color: var(--background-accent);
     color: var(--main-title-text);
 }
+.container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+.logo-footer {
+    display: block;
+    margin-bottom: 16px;
+}
+
+
 .title-projct {
 font-weight: 500;
 font-size: 20px;
